@@ -58,11 +58,11 @@
 
 | Solved | # | Title | Difficulty | Tags / Algo | Approach Notes | Time | Space | Date Solved | URL |
 |:-----:|---:|---|:---:|---|---|---|---|:---:|---|
-| [x] | 217 | Contains Duplicate | Easy | Array, Hash Map | Use a set; early exit on seen element | O(n) | O(n) |  | https://leetcode.com/problems/contains-duplicate/ |
-| [x] | 242 | Valid Anagram | Easy | Hash Map, Sorting | Count letters or sort strings | O(n) / O(n log n) | O(1) or O(k) |  | https://leetcode.com/problems/valid-anagram/ |
-| [x] | 1 | Two Sum | Easy | Hash Map | One‑pass map from value→index | O(n) | O(n) |  | https://leetcode.com/problems/two-sum/ |
-| [x] | 49 | Group Anagrams | Medium | Hash Map | Count‑key by 26‑freq tuple | O(n·k) | O(n·k) |  | https://leetcode.com/problems/group-anagrams/ |
-| [x] | 238 | Product of Array Except Self | Medium | Array, Prefix | Prefix & suffix products | O(n) | O(1) |  | https://leetcode.com/problems/product-of-array-except-self/ |
+| ✅ | 217 | Contains Duplicate | Easy | Array, Hash Map | Use a set; early exit on seen element | O(n) | O(n) |  | https://leetcode.com/problems/contains-duplicate/ |
+| ✅ | 242 | Valid Anagram | Easy | Hash Map, Sorting | Count letters or sort strings | O(n) / O(n log n) | O(1) or O(k) |  | https://leetcode.com/problems/valid-anagram/ |
+| ✅ | 1 | Two Sum | Easy | Hash Map | One‑pass map from value→index | O(n) | O(n) |  | https://leetcode.com/problems/two-sum/ |
+| ✅ | 49 | Group Anagrams | Medium | Hash Map | Count‑key by 26‑freq tuple | O(n·k) | O(n·k) |  | https://leetcode.com/problems/group-anagrams/ |
+| ✅ | 238 | Product of Array Except Self | Medium | Array, Prefix | Prefix & suffix products | O(n) | O(1) |  | https://leetcode.com/problems/product-of-array-except-self/ |
 | [] | 125 | Valid Palindrome | Easy | Two Pointers | Normalize; move inwards | O(n) | O(1) |  | https://leetcode.com/problems/valid-palindrome/ |
 | [] | 167 | Two Sum II - Input Array Is Sorted | Medium | Two Pointers | Left+right shrink window | O(n) | O(1) |  | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/ |
 | [ ] | 15 | 3Sum | Medium | Two Pointers | Sort + fixed i + 2‑sum | O(n^2) | O(1) |  | https://leetcode.com/problems/3sum/ |
@@ -75,7 +75,7 @@
 | [ ] | 84 | Largest Rectangle in Histogram | Hard | Monotonic Stack | Next‑smaller left/right | O(n) | O(n) |  | https://leetcode.com/problems/largest-rectangle-in-histogram/ |
 | [ ] | 704 | Binary Search | Easy | Binary Search | Classic mid shrink | O(log n) | O(1) |  | https://leetcode.com/problems/binary-search/ |
 | [ ] | 74 | Search a 2D Matrix | Medium | Binary Search | Treat as 1‑D index | O(log mn) | O(1) |  | https://leetcode.com/problems/search-a-2d-matrix/ |
-| [ ] | 875 | Koko Eating Bananas | Medium | Binary Search | Search answer (speed) | O(n log M) | O(1) |  | https://leetcode.com/problems/koko-eating-bananas/ |
+| ✅ | 875 | Koko Eating Bananas | Medium | Binary Search | Search answer (speed) | O(n log M) | O(1) |  | https://leetcode.com/problems/koko-eating-bananas/ |
 | [ ] | 153 | Find Minimum in Rotated Sorted Array | Medium | Binary Search | Compare mid to right | O(log n) | O(1) |  | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/ |
 | [ ] | 33 | Search in Rotated Sorted Array | Medium | Binary Search | Decide sorted side | O(log n) | O(1) |  | https://leetcode.com/problems/search-in-rotated-sorted-array/ |
 | [ ] | 121 | Best Time to Buy and Sell Stock | Easy | Sliding Window | Track min‑so‑far | O(n) | O(1) |  | https://leetcode.com/problems/best-time-to-buy-and-sell-stock/ |
@@ -155,8 +155,8 @@
 | [ ] | 56 | Merge Intervals | Medium | Intervals, Sorting | sweep & merge | O(n log n) | O(n) |  | https://leetcode.com/problems/merge-intervals/ |
 | [ ] | 252 | Meeting Rooms | Easy | Intervals | sort by start | O(n log n) | O(1) |  | https://leetcode.com/problems/meeting-rooms/ |
 | [ ] | 253 | Meeting Rooms II | Medium | Intervals, Heap | min‑heap of ends | O(n log n) | O(n) |  | https://leetcode.com/problems/meeting-rooms-ii/ |
-| [ ] | 48 | Rotate Image | Medium | Matrix | transpose + reverse | O(n^2) | O(1) |  | https://leetcode.com/problems/rotate-image/ |
-| [ ] | 54 | Spiral Matrix | Medium | Matrix | layer traversal | O(mn) | O(1) |  | https://leetcode.com/problems/spiral-matrix/ |
+| ✅ | 48 | Rotate Image | Medium | Matrix | transpose + reverse | O(n^2) | O(1) |  | https://leetcode.com/problems/rotate-image/ |
+| ✅ | 54 | Spiral Matrix | Medium | Matrix | layer traversal | O(mn) | O(1) |  | https://leetcode.com/problems/spiral-matrix/ |
 | [ ] | 73 | Set Matrix Zeroes | Medium | Matrix | first row/col markers | O(mn) | O(1) |  | https://leetcode.com/problems/set-matrix-zeroes/ |
 | [ ] | 202 | Happy Number | Easy | Math, Hash Set | detect cycle | O(log n) | O(1) |  | https://leetcode.com/problems/happy-number/ |
 | [ ] | 50 | Pow(x, n) | Medium | Math, Binary Exp | fast power | O(log n) | O(1) |  | https://leetcode.com/problems/powx-n/ |
