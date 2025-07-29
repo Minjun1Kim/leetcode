@@ -58,13 +58,13 @@
 
 | Solved | # | Title | Difficulty | Tags / Algo | Approach Notes | Time | Space | Date Solved | URL |
 |:-----:|---:|---|:---:|---|---|---|---|:---:|---|
-| [ ] | 217 | Contains Duplicate | Easy | Array, Hash Map | Use a set; early exit on seen element | O(n) | O(n) |  | https://leetcode.com/problems/contains-duplicate/ |
-| [ ] | 242 | Valid Anagram | Easy | Hash Map, Sorting | Count letters or sort strings | O(n) / O(n log n) | O(1) or O(k) |  | https://leetcode.com/problems/valid-anagram/ |
-| [ ] | 1 | Two Sum | Easy | Hash Map | One‑pass map from value→index | O(n) | O(n) |  | https://leetcode.com/problems/two-sum/ |
-| [ ] | 49 | Group Anagrams | Medium | Hash Map | Count‑key by 26‑freq tuple | O(n·k) | O(n·k) |  | https://leetcode.com/problems/group-anagrams/ |
-| [ ] | 238 | Product of Array Except Self | Medium | Array, Prefix | Prefix & suffix products | O(n) | O(1) |  | https://leetcode.com/problems/product-of-array-except-self/ |
-| [ ] | 125 | Valid Palindrome | Easy | Two Pointers | Normalize; move inwards | O(n) | O(1) |  | https://leetcode.com/problems/valid-palindrome/ |
-| [ ] | 167 | Two Sum II - Input Array Is Sorted | Medium | Two Pointers | Left+right shrink window | O(n) | O(1) |  | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/ |
+| [x] | 217 | Contains Duplicate | Easy | Array, Hash Map | Use a set; early exit on seen element | O(n) | O(n) |  | https://leetcode.com/problems/contains-duplicate/ |
+| [x] | 242 | Valid Anagram | Easy | Hash Map, Sorting | Count letters or sort strings | O(n) / O(n log n) | O(1) or O(k) |  | https://leetcode.com/problems/valid-anagram/ |
+| [x] | 1 | Two Sum | Easy | Hash Map | One‑pass map from value→index | O(n) | O(n) |  | https://leetcode.com/problems/two-sum/ |
+| [x] | 49 | Group Anagrams | Medium | Hash Map | Count‑key by 26‑freq tuple | O(n·k) | O(n·k) |  | https://leetcode.com/problems/group-anagrams/ |
+| [x] | 238 | Product of Array Except Self | Medium | Array, Prefix | Prefix & suffix products | O(n) | O(1) |  | https://leetcode.com/problems/product-of-array-except-self/ |
+| [] | 125 | Valid Palindrome | Easy | Two Pointers | Normalize; move inwards | O(n) | O(1) |  | https://leetcode.com/problems/valid-palindrome/ |
+| [] | 167 | Two Sum II - Input Array Is Sorted | Medium | Two Pointers | Left+right shrink window | O(n) | O(1) |  | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/ |
 | [ ] | 15 | 3Sum | Medium | Two Pointers | Sort + fixed i + 2‑sum | O(n^2) | O(1) |  | https://leetcode.com/problems/3sum/ |
 | [ ] | 11 | Container With Most Water | Medium | Two Pointers | Two‑pointer max area | O(n) | O(1) |  | https://leetcode.com/problems/container-with-most-water/ |
 | [ ] | 20 | Valid Parentheses | Easy | Stack | Push opens; match closes | O(n) | O(n) |  | https://leetcode.com/problems/valid-parentheses/ |
